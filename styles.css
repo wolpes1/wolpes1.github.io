@@ -3,6 +3,12 @@
 #logo {
     height: 60px;
     margin-left: 25px;
+    margin-top: 5px;
+    font-family: 'League Spartan', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+    align-items: center;
 }
 
 h1{
@@ -13,7 +19,7 @@ h1{
 }
 
 header {
-    background-color: #c0d1ff;
+    background-color: #5E17EB;
     height: 60px;
 }
 
@@ -22,10 +28,24 @@ header {
 }
 
 #header-links a{
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Ruda', sans-serif;
+    font-size: 25px;
     text-decoration: none;
-    color: #00005C;
+    color: #fff;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
     align-items: center;
 }
+
+#header-links a:hover{
+    transition: .5s;
+    font-family: 'Ruda', sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+    color: #aaa;
+    padding-left: 10px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+/* Body settings */
