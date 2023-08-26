@@ -15,8 +15,8 @@ header {
 }
 
 header img{
-    max-height: 40px;
-    margin: 10px 25px 0 0;
+    max-height: 60px;
+    margin: 0 25px 0 0;
 }
 
 #header-links {
@@ -27,4 +27,5 @@ header img{
     font-family: 'Bebas Neue', sans-serif;
     text-decoration: none;
     color: #00005C;
+    padding-left: 10px;
 }
