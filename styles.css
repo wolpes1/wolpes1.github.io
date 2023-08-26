@@ -1,5 +1,7 @@
 /* Header settings */
 
+#logo
+
 h1{
     color: #fff;
     font-family: "Bebas Neue", sans-serif;
@@ -17,7 +19,12 @@ header img{
     margin: 10px 25px 0 0;
 }
 
+#header-links {
+    vertical-align: middle;
+}
+
 #header-links a{
     font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
     color: #00005C;
 }
