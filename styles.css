@@ -5,6 +5,7 @@
     margin-left: 25px;
     margin-top: 5px;
     font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
     color: #fff;
     text-decoration: none;
     font-size: 40px;
@@ -19,7 +20,7 @@ h1{
 }
 
 header {
-    background-color: #5E17EB;
+    background-color: #1D003A;
     height: 60px;
 }
 
@@ -48,4 +49,45 @@ header {
     align-items: center;
 }
 
-/* Body settings */
+/* About Me settings */
+
+#about-me {
+    display: flexbox;
+    vertical-align: middle;
+    height: 25vh;
+    background-color: #320065;
+    margin: 50px auto;
+    width: 700px;
+    border: solid 0;
+    border-radius: 20px;
+    box-shadow: 10px -10px #1D003A ;
+}
+
+#profile-picture {
+    height: 180px;
+    margin-right: 40px;
+}
+
+#about-me-items {
+    list-style: none;
+    font-family: 'Ruda', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin: auto 0;
+}
+
+#about-me-name {
+    font-size: 40px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+#about-me-items a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#about-me-items a:hover{
+    transition: 0.5s;
+    color: #888;
+    text-decoration: none;
+}
