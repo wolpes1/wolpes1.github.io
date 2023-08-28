@@ -22,10 +22,10 @@ h1{
 header {
     background-color: #1D003A;
     height: 60px;
-}
-
-#header-links {
-    vertical-align: middle;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 60px 0;
+    position: fixed;
 }
 
 #header-links a{
@@ -33,20 +33,24 @@ header {
     font-size: 25px;
     text-decoration: none;
     color: #fff;
-    padding-left: 10px;
-    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
     align-items: center;
 }
 
 #header-links a:hover{
     transition: .5s;
     font-family: 'Ruda', sans-serif;
-    font-size: 25px;
     text-decoration: underline;
     color: #aaa;
-    padding-left: 10px;
-    padding-right: 20px;
-    align-items: center;
+}
+
+#header-spacer {
+    height: 40px;
+}
+
+body {
+    width: 100vw;
 }
 
 /* About Me settings */
@@ -57,7 +61,7 @@ header {
     height: 25vh;
     background-color: #320065;
     margin: 50px auto;
-    width: 700px;
+    width: 40vw;
     border: solid 0;
     border-radius: 20px;
     box-shadow: 10px -10px #1D003A ;
